@@ -41,6 +41,8 @@ because they can be used with any digital media, including those that are not ye
 
 ## Recording
 
+Click on image below to stream a recorded presentation.
+
 [![](./Poelen_DD2023_title_slide.jpg)](https://vimeo.com/832006741)
 
 ## Content
