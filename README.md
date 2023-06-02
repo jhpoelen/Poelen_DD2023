@@ -64,12 +64,30 @@ Digital Data in Biodiversity Data Conference 2023 
 
 ## Provenance
 
-$ preston head
+
+```bash
+preston\
+ --remote https://linker.bio\
+ --anchor hash://sha256/0154b9ddce4d2e280e627a08d1a2d42884201af6ac1ec19606e393deda57f4bb\
+ head
+```
+
 hash://sha256/0154b9ddce4d2e280e627a08d1a2d42884201af6ac1ec19606e393deda57f4bb
 
-$ preston head | preston cat | md5sum | sed 's+^+hash://md5/+g' | cut -d ' ' -f1
+```bash
+preston\
+ --remote https://linker.bio\
+ --anchor hash://sha256/0154b9ddce4d2e280e627a08d1a2d42884201af6ac1ec19606e393deda57f4bb\
+ head\
+ | preston cat\
+ | md5sum\
+ | sed 's+^+hash://md5/+g'\
+ | cut -d ' ' -f1
+```
+
 hash://md5/bae7f441cdd2648d2356b2330e4b71e8
 
+```
 $ preston alias
 <urn:preston:guoda:bio:Poelen_DD2023.pdf> <http://purl.org/pav/hasVersion> <hash://sha256/56e997ea728d9276d750c837820796536e86915ca56168f035023e9e254a1f1d> <urn:uuid:03d88005-cb81-4c89-a5a3-6a1c0d2b2b15> .
 <urn:preston:guoda:bio:Poelen_DD2023.pptx> <http://purl.org/pav/hasVersion> <hash://sha256/77a0a28a66dcfb335cb4a636f7b2ae0910e911e7e090a8d2b77c44647f916d2d> <urn:uuid:f84952cb-7a08-4acb-8066-fc94e103c073> .
@@ -85,5 +103,5 @@ $ preston alias
 <urn:uuid:0f12ad74-d270-43f2-824d-b8f445657346> <http://purl.org/pav/hasVersion> <hash://sha256/ec9d5f60c62994a0c5f512c0ce54f3e0faba08b70cae454022f0be6c8455e9b0> <urn:uuid:57abcd50-04a1-4681-a109-d357b74940ad> .
 <https://docs.google.com/presentation/d/1EDp2PWdggttM0ZumuSED8MKEwQ_iKNgWZ4_wpFoqQaI/export/pptx> <http://purl.org/pav/hasVersion> <hash://sha256/3b581c7123f742b4d806f4c56df798dbb46f927d9f55a496b26918329a7ca627> <urn:uuid:05b6a358-3037-4d25-9fe1-9d56cee84647> .
 <https://docs.google.com/presentation/d/1EDp2PWdggttM0ZumuSED8MKEwQ_iKNgWZ4_wpFoqQaI/export/pdf> <http://purl.org/pav/hasVersion> <hash://sha256/c4c1602421ec450a61417123b29d13998451ea1df885add2de807cceb3dd1278> <urn:uuid:e9b0717d-557a-404b-92af-eb3054969eeb> .
-
+```
 
