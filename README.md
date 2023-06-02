@@ -1,5 +1,8 @@
 # Signed Biodiversity Data Packages: A Method to Cite, Verify, Mobilize, and Future Proof, Large Image Corpora. hash://sha256/0154b9ddce4d2e280e627a08d1a2d42884201af6ac1ec19606e393deda57f4bb hash://md5/bae7f441cdd2648d2356b2330e4b71e8 https://doi.org/10.5281/zenodo.7998190
 
+[![SWH](https://archive.softwareheritage.org/badge/swh:1:dir:cc469f55755ce6481c30be1e95fcf53e2c8e1d7d/)](https://archive.softwareheritage.org/swh:1:dir:cc469f55755ce6481c30be1e95fcf53e2c8e1d7d;origin=https://github.com/jhpoelen/Poelen_DD2023;visit=swh:1:snp:84dab1456b6f2c3eea90f32cb7248aa5cfa4e8ca;anchor=swh:1:rev:bd4c566d3982ea0e7f0d6e9f3f54960aadc1aea8)
+
+
 by 
 
 Jorrit H. Poelen [orcid:0000-0003-3138-4118](https://orcid.org/0000-0003-3138-4118)
@@ -36,9 +39,9 @@ Our results support that signed digital packaging of image corpora enables distr
 using readily available transfer and storage methods. In addition, our method is future proof
 because they can be used with any digital media, including those that are not yet available.
 
-## Recorded
+## Recording
 
-<iframe src="https://player.vimeo.com/video/832006741?h=b572e446f1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+[![](./Poelen_DD2023_title_slide.jpg)](https://vimeo.com/video/832006741")
 
 ## Content
 included files are:
