@@ -1,7 +1,6 @@
 # Signed Biodiversity Data Packages: A Method to Cite, Verify, Mobilize, and Future Proof, Large Image Corpora. hash://sha256/0154b9ddce4d2e280e627a08d1a2d42884201af6ac1ec19606e393deda57f4bb hash://md5/bae7f441cdd2648d2356b2330e4b71e8 https://doi.org/10.5281/zenodo.7998190
 
-[![SWH](https://archive.softwareheritage.org/badge/swh:1:dir:cc469f55755ce6481c30be1e95fcf53e2c8e1d7d/)](https://archive.softwareheritage.org/swh:1:dir:cc469f55755ce6481c30be1e95fcf53e2c8e1d7d;origin=https://github.com/jhpoelen/Poelen_DD2023;visit=swh:1:snp:84dab1456b6f2c3eea90f32cb7248aa5cfa4e8ca;anchor=swh:1:rev:bd4c566d3982ea0e7f0d6e9f3f54960aadc1aea8)
-
+[![SWH](https://archive.softwareheritage.org/badge/swh:1:dir:cc469f55755ce6481c30be1e95fcf53e2c8e1d7d/)](https://archive.softwareheritage.org/swh:1:dir:cc469f55755ce6481c30be1e95fcf53e2c8e1d7d;origin=https://github.com/jhpoelen/Poelen_DD2023;visit=swh:1:snp:84dab1456b6f2c3eea90f32cb7248aa5cfa4e8ca;anchor=swh:1:rev:bd4c566d3982ea0e7f0d6e9f3f54960aadc1aea8) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7998190.svg)](https://doi.org/10.5281/zenodo.7998190)
 
 by 
 
