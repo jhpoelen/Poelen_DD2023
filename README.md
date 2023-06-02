@@ -61,19 +61,21 @@ Digital Data in Biodiversity Data Conference 2023 
 
 ```bash
 preston\
+ head\
  --remote https://linker.bio\
- --anchor hash://sha256/0154b9ddce4d2e280e627a08d1a2d42884201af6ac1ec19606e393deda57f4bb\
- head
+ --anchor hash://sha256/0154b9ddce4d2e280e627a08d1a2d42884201af6ac1ec19606e393deda57f4bb
 ```
 
 hash://sha256/0154b9ddce4d2e280e627a08d1a2d42884201af6ac1ec19606e393deda57f4bb
 
 ```bash
 preston\
+ head\
  --remote https://linker.bio\
  --anchor hash://sha256/0154b9ddce4d2e280e627a08d1a2d42884201af6ac1ec19606e393deda57f4bb\
- head\
  | preston cat\
+  --remote https://linker.bio\
+  --anchor hash://sha256/0154b9ddce4d2e280e627a08d1a2d42884201af6ac1ec19606e393deda57f4bb\
  | md5sum\
  | sed 's+^+hash://md5/+g'\
  | cut -d ' ' -f1
@@ -82,7 +84,10 @@ preston\
 hash://md5/bae7f441cdd2648d2356b2330e4b71e8
 
 ```
-$ preston alias
+preston alias\
+ --remote https://linker.bio\
+ --anchor hash://sha256/0154b9ddce4d2e280e627a08d1a2d42884201af6ac1ec19606e393deda57f4bb
+```
 <urn:preston:guoda:bio:Poelen_DD2023.pdf> <http://purl.org/pav/hasVersion> <hash://sha256/56e997ea728d9276d750c837820796536e86915ca56168f035023e9e254a1f1d> <urn:uuid:03d88005-cb81-4c89-a5a3-6a1c0d2b2b15> .
 <urn:preston:guoda:bio:Poelen_DD2023.pptx> <http://purl.org/pav/hasVersion> <hash://sha256/77a0a28a66dcfb335cb4a636f7b2ae0910e911e7e090a8d2b77c44647f916d2d> <urn:uuid:f84952cb-7a08-4acb-8066-fc94e103c073> .
 <urn:preston:guoda:bio:Poelen_DD2023.mp4> <http://purl.org/pav/hasVersion> <hash://sha256/085ce0a06692610606f90a7f8a3be79fe2b3d8d670f7b7ad6109600e0e6af05a> <urn:uuid:aac8ae03-0f4c-4db3-89d6-bee1843f5124> .
