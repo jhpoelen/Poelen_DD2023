@@ -11,7 +11,7 @@ Jason Best [orcid:0000-0002-7414-5523](https://orcid.org/0000-0002-7414-5523) / 
 
 Please cite as:
 
-Poelen, Jorrit H., & Best, Jason. (2023, June 2). Signed Biodiversity Data Packages: A Method to Cite, Verify, Mobilize, and Future Proof, Large Image Corpora. hash://sha256/0154b9ddce4d2e280e627a08d1a2d42884201af6ac1ec19606e393deda57f4bb hash://md5/bae7f441cdd2648d2356b2330e4b71e8. Zenodo. https://doi.org/10.5281/zenodo.7998190
+Poelen, Jorrit H., & Best, Jason. (2023, June 2). Signed Biodiversity Data Packages: A Method to Cite, Verify, Mobilize, and Future Proof, Large Image Corpora. [hash://sha256/0154b9ddce4d2e280e627a08d1a2d42884201af6ac1ec19606e393deda57f4bb](https://linker.bio/hash://sha256/0154b9ddce4d2e280e627a08d1a2d42884201af6ac1ec19606e393deda57f4bb) [hash://md5/bae7f441cdd2648d2356b2330e4b71e8](https://linker.bio/hash://md5/bae7f441cdd2648d2356b2330e4b71e8). Zenodo. [https://doi.org/10.5281/zenodo.7998190](https://doi.org/10.5281/zenodo.7998190)
 
 
 ## Abstract
