@@ -41,7 +41,7 @@ because they can be used with any digital media, including those that are not ye
 
 ## Recording
 
-[![](./Poelen_DD2023_title_slide.jpg)](https://vimeo.com/video/832006741")
+[![](./Poelen_DD2023_title_slide.jpg)](https://vimeo.com/832006741)
 
 ## Content
 included files are:
